@@ -1,5 +1,5 @@
 variable "region" {
-  default = "ap-south-1"
+  default = "af-south-1"
 }
 
 variable "ami_name_value" {

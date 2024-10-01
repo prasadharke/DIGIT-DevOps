@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     bucket = "central-instance-test-terraform-state"
     key = "terraform"
-    region = "ap-south-1"
+    region = "af-south-1"
   }
 }
 

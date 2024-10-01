@@ -21,7 +21,7 @@ image:
 replicas: "1"
 httpPort: 8080
 serverBasePath: "/pgadmin"
-dbUrl: "egov-dev-db.ctm6jbmr5mnj.ap-south-1.rds.amazonaws.com"
+dbUrl: "egov-dev-db.ctm6jbmr5mnj.af-south-1.rds.amazonaws.com"
 environment: "DEV"
 maintenance-db-name: "postgres"           
 

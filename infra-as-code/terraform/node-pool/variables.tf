@@ -12,5 +12,5 @@ variable "kubernetes_version" {
 }
 
 variable "availability_zones" {
-  default = "ap-south-1a"
+  default = "af-south-1a"
 }

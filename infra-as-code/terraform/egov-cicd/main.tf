@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     bucket = "try-cicd-workshop-yourname"
     key = "terraform"
-    region = "ap-south-1"
+    region = "af-south-1"
   }
 }
 

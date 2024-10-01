@@ -136,11 +136,11 @@ persistence:
   enabled: false
   # aws:
   #   - volumeId: value
-  #     zone: ap-south-1a
+  #     zone: af-south-1a
   #   - volumeId: value
-  #     zone: ap-south-1b
+  #     zone: af-south-1b
   #   - volumeId: value
-  #     zone: ap-south-1c 
+  #     zone: af-south-1c 
 
   # azure:
   #   - diskName: zookeeper-0

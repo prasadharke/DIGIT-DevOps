@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     bucket = <terraform_state_bucket_name>
     key    = "digit-bootcamp-setup/terraform.tfstate"
-    region = "ap-south-1"
+    region = "af-south-1"
     # The below line is optional depending on whether you are using DynamoDB for state locking and consistency
     dynamodb_table = <terraform_state_bucket_name>
     # The below line is optional if your S3 bucket is encrypted

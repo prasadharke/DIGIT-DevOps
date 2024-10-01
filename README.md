@@ -18,8 +18,8 @@ Navigate to the repository settings, then to Secrets and Variables, and add the 
 
 AWS_ACCESS_KEY_ID: <GENERATED_ACCESS_KEY>
 AWS_SECRET_ACCESS_KEY: <GENERATED_SECRET_KEY>
-AWS_DEFAULT_REGION: ap-south-1
-AWS_REGION: ap-south-1
+AWS_DEFAULT_REGION: af-south-1
+AWS_REGION: af-south-1
 
 3. Enable GitHub Actions
 Open the GitHub Actions workflow file.

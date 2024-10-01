@@ -16,12 +16,12 @@ variable "vpc_cidr_block" {
 
 variable "network_availability_zones" {
   description = "Configure availability zones configuration for VPC. Leave as default for India. Recommendation is to have subnets in at least two availability zones"
-  default = ["ap-south-1b", "ap-south-1a"] #REPLACE IF NEEDED
+  default = ["af-south-1b", "af-south-1a"] #REPLACE IF NEEDED
 }
 
 variable "availability_zones" {
   description = "Amazon EKS runs and scales the Kubernetes control plane across multiple AWS Availability Zones to ensure high availability. Specify a comma separated list to have a cluster spanning multiple zones. Note that this will have cost implications"
-  default = ["ap-south-1b"] #REPLACE IF NEEDED
+  default = ["af-south-1b"] #REPLACE IF NEEDED
 }
 
 variable "kubernetes_version" {

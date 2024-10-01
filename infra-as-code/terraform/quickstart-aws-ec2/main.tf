@@ -14,7 +14,7 @@ resource "aws_instance" "digit-quickstart-vm" {
   key_name               = module.ssh_key.ssh_key_name
   monitoring             =  false
   associate_public_ip_address = true
-  availability_zone      =  "ap-south-1b"
+  availability_zone      =  "af-south-1b"
 
   tags = {
     Name = "${var.tag}"
