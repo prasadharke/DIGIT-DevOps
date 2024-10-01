@@ -5,7 +5,7 @@
 
 variable "cluster_name" {
   description = "Name of the Kubernetes cluster"
-  default = djibouti #REPLACE
+  default =  #REPLACE
 }
 
 variable "vpc_cidr_block" {
