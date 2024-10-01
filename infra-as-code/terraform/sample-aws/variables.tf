@@ -5,7 +5,7 @@
 
 variable "cluster_name" {
   description = "Name of the Kubernetes cluster"
-  default = <cluster_name> #REPLACE
+  default = djibouti #REPLACE
 }
 
 variable "vpc_cidr_block" {
@@ -31,12 +31,12 @@ variable "kubernetes_version" {
 
 variable "instance_type" {
   description = "eGov recommended below instance type as a default"
-  default = "r5ad.large"
+  default = "t3.xlarge"
 }
 
 variable "override_instance_types" {
   description = "Arry of instance types for SPOT instances"
-  default = ["r5a.large", "r5ad.large", "r5d.large", "m4.xlarge"]
+  default = ["r5.large", "r5d.large", "r5.large", "t3.xlarge"]
   
 }
 
